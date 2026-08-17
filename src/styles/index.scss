@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  .header {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    .logo {
+      width: 30px;
+      color: white;
+      // display: flex;
+      // justify-content: center;
+      // margin-top: 20px;
+    }
+    .search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .homePage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        background-color: #424242;
+        border: 1px solid #ccc;
+        border-radius: 80px;
+        .logoHome {
+          width: 30px;
+          color: white;
+        }
+      }
+      .searchAlbuns {
+        background-color: #424242;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        gap: 2px;
+        //   margin: auto;
+        padding: 5px;
+        .logoSearch {
+          width: 30px;
+          color: white;
+        }
+        .logoAlbuns {
+          width: 30px;
+          color: white;
+        }
+      }
+    }
+  }
+}

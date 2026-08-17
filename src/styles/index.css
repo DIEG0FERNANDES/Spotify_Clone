@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+body .header {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+body .header .logo {
+  width: 30px;
+  color: white;
+}
+body .header .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .header .search .homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: #424242;
+  border: 1px solid #ccc;
+  border-radius: 80px;
+}
+body .header .search .homePage .logoHome {
+  width: 30px;
+  color: white;
+}
+body .header .search .searchAlbuns {
+  background-color: #424242;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  gap: 2px;
+  padding: 5px;
+}
+body .header .search .searchAlbuns .logoSearch {
+  width: 30px;
+  color: white;
+}
+body .header .search .searchAlbuns .logoAlbuns {
+  width: 30px;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
